@@ -73,3 +73,11 @@ Final scores are calculated as an average of the five assignment scores.
 Your application needs to perform basic math operations to calculate the final grades for each student.
 Your application needs to output/display each student’s name and final score.
 */
+
+//if i have 2.98921 and i want to get the digit before decimal i will just parse int and it truncates
+//and returns the digit ie
+// int firstdigit = (int) (2.98921)
+//if you want lets say the two digits after the decimal, you do like this:
+// int first = (int) (2.98921 * 10) % 10
+// int second = (int) (2.98921 * 100) * 10
+//int third = (int) (2.98921 * 1000) * 10
