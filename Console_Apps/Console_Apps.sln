@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Grading_Application", "Student_Grading_Application\Student_Grading_Application.csproj", "{A2637242-4BAA-46E1-AC92-11D58C1B78F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call_Methods", "Call_Methods\Call_Methods.csproj", "{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Call_Methods", "Call_Methods\Call_Methods.csproj", "{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dice_game", "dice_game\dice_game.csproj", "{48110EEF-1794-452D-BE09-B2BDF6D7D545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48110EEF-1794-452D-BE09-B2BDF6D7D545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48110EEF-1794-452D-BE09-B2BDF6D7D545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48110EEF-1794-452D-BE09-B2BDF6D7D545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48110EEF-1794-452D-BE09-B2BDF6D7D545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
