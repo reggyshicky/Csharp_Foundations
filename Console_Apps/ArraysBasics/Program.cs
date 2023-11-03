@@ -22,6 +22,12 @@
             Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
             Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
 
+            string[] names = { "Reginah", "Shikanda", "Bao" };
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
 
         }
     }

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriptions", "Subscripti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysBasics", "ArraysBasics\ArraysBasics.csproj", "{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foreach_array", "foreach_array\foreach_array.csproj", "{EC549931-5E51-4341-912F-B46313600541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestedIteration", "nestedIteration\nestedIteration.csproj", "{DBA26066-F3AD-46BB-9653-E947803A1C12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC549931-5E51-4341-912F-B46313600541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC549931-5E51-4341-912F-B46313600541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC549931-5E51-4341-912F-B46313600541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC549931-5E51-4341-912F-B46313600541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
