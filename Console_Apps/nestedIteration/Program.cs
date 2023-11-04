@@ -1,4 +1,6 @@
-﻿namespace nestedIteration
+﻿using System.Collections.Specialized;
+
+namespace nestedIteration
 {
     internal class Program
     {
@@ -12,6 +14,30 @@
                     Console.WriteLine(elem);
                 }
             }
+
+            string message = "The quick brown fox jumps over the lazy dog.";
+
+            //convert the message into a char array
+            char[] arrayMessage = message.ToCharArray();
+
+            //Reverse the arrayMessage
+            Array.Reverse(arrayMessage);
+
+            int count = 0;
+
+            foreach(char elem in arrayMessage)
+            {
+                if (elem == 'o')
+                {
+                    count++;
+                }
+             }
+
+            string newMessage = new string(arrayMessage);
+
+            //print it out
+            Console.WriteLine(newMessage);
+            Console.WriteLine($"'o' appears {count} times.");
         }
     }
 }

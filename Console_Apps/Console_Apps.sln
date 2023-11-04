@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Grading_Application
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Call_Methods", "Call_Methods\Call_Methods.csproj", "{0CAF6E09-313B-4B52-9FB1-922BB8DB8E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dice_game", "dice_game\dice_game.csproj", "{48110EEF-1794-452D-BE09-B2BDF6D7D545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dice_game", "dice_game\dice_game.csproj", "{48110EEF-1794-452D-BE09-B2BDF6D7D545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriptions", "Subscriptions\Subscriptions.csproj", "{EF706A91-52D3-40A2-8628-8351B6CD958A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriptions", "Subscriptions\Subscriptions.csproj", "{EF706A91-52D3-40A2-8628-8351B6CD958A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysBasics", "ArraysBasics\ArraysBasics.csproj", "{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysBasics", "ArraysBasics\ArraysBasics.csproj", "{07AAFDB5-205D-4ED4-B81B-5BEF35C6C2D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foreach_array", "foreach_array\foreach_array.csproj", "{EC549931-5E51-4341-912F-B46313600541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "foreach_array", "foreach_array\foreach_array.csproj", "{EC549931-5E51-4341-912F-B46313600541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestedIteration", "nestedIteration\nestedIteration.csproj", "{DBA26066-F3AD-46BB-9653-E947803A1C12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestedIteration", "nestedIteration\nestedIteration.csproj", "{DBA26066-F3AD-46BB-9653-E947803A1C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradeApp2", "StudentGradeApp2\StudentGradeApp2.csproj", "{0316DBD2-4512-4D8D-82A1-1D080337A8CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBA26066-F3AD-46BB-9653-E947803A1C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0316DBD2-4512-4D8D-82A1-1D080337A8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0316DBD2-4512-4D8D-82A1-1D080337A8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0316DBD2-4512-4D8D-82A1-1D080337A8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0316DBD2-4512-4D8D-82A1-1D080337A8CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
