@@ -17,6 +17,7 @@ namespace Demo_Variables_Constants
             //Implicit Type Conversion
             byte b = 1;                    //00000001
             int i = b; // 00000000 00000000 00000000 00000001   no data loss will happen
+            Console.WriteLine(i);
 
             int j = 1;
             float f = i; //no data loss
@@ -36,6 +37,31 @@ namespace Demo_Variables_Constants
             string s = "1";
             int e = Convert.ToInt32(s);
             int l = int.Parse(s);
+
+            try
+            {
+                var number = "1234";
+                byte g = Convert.ToByte(number);
+                Console.WriteLine(g);
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("The number could not be converted into a byte, byte can only store 0 to 255");
+            }
+            //We used the try catch to prevent the application from crashing, 
+
+            try
+            {
+                string str = "true";
+                bool h = Convert.ToBoolean(str);
+                Console.WriteLine(h);
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("The number could not be converted into a byte, byte can only store 0 to 255");
+            }
         }
     }
 }
