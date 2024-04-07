@@ -21,6 +21,10 @@
             Console.WriteLine("Give a float");
             float number = float.Parse(Console.ReadLine());
 
+            int[] arr = new int[5] { 1, 2, 3, 4, 5 };
+            String formattedArray = string.Join(",", arr);
+            Console.WriteLine(formattedArray);
+
         }
     }
 }
