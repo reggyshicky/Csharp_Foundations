@@ -1,6 +1,6 @@
 ﻿namespace Value_Reference_Type
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@
             //the other.Examples of value types include primitive types(int, float, char and userdefined structs)
             //Reference types store a reference to the memory location where the actual data is stored. When you 
             //assign a reference type to another variable, you are copying the reference, not the actual data
-            //Both variables then refer to the same data in memory. Examples include, classes, arrays and interfaces
+            //Both variables then refer to the same data in memory. Examples include, classes, arrays and interfaces    
         }
     }
 }

@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Non_Primitive_datat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{7DDBD536-1632-44D7-9B09-4D4335E09FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value_Reference_Type", "Value_Reference_Type\Value_Reference_Type.csproj", "{22ADEB65-8F8F-43A5-B4FB-AAA35F4E5C41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Value_Reference_Type", "Value_Reference_Type\Value_Reference_Type.csproj", "{22ADEB65-8F8F-43A5-B4FB-AAA35F4E5C41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rebornClasses", "rebornClasses\rebornClasses.csproj", "{EA637FAD-B83D-4A63-B4C5-2C114674CA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputFromConsole", "InputFromConsole\InputFromConsole.csproj", "{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{22ADEB65-8F8F-43A5-B4FB-AAA35F4E5C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22ADEB65-8F8F-43A5-B4FB-AAA35F4E5C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22ADEB65-8F8F-43A5-B4FB-AAA35F4E5C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA637FAD-B83D-4A63-B4C5-2C114674CA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA637FAD-B83D-4A63-B4C5-2C114674CA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA637FAD-B83D-4A63-B4C5-2C114674CA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA637FAD-B83D-4A63-B4C5-2C114674CA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
