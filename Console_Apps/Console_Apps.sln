@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Value_Reference_Type", "Val
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rebornClasses", "rebornClasses\rebornClasses.csproj", "{EA637FAD-B83D-4A63-B4C5-2C114674CA46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputFromConsole", "InputFromConsole\InputFromConsole.csproj", "{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputFromConsole", "InputFromConsole\InputFromConsole.csproj", "{31A6A346-9DF9-4A06-B1E6-74D9ED93312E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
