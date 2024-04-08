@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputFromConsole", "InputFr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{192B32FE-C8C2-4B10-8781-9A1F29E9FDCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1", "Exercise1\Exercise1.csproj", "{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomClass", "RandomClass\RandomClass.csproj", "{D85D6297-FE0E-4E24-AD6F-BC3C38C57BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE82574-8A40-4E30-9D18-ECD8F0354A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85D6297-FE0E-4E24-AD6F-BC3C38C57BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85D6297-FE0E-4E24-AD6F-BC3C38C57BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85D6297-FE0E-4E24-AD6F-BC3C38C57BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85D6297-FE0E-4E24-AD6F-BC3C38C57BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
