@@ -53,7 +53,7 @@ namespace Exerice2
             if (guess == secret)
             {
                 Console.WriteLine($"The secret number is: {secret}");
-                Console.WriteLine("You won");
+                Console.WriteLine("You won!");
             }
             else
             {
