@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
+using System.Net.Sockets;
 
 namespace Exerice2
 {
@@ -46,23 +47,48 @@ namespace Exerice2
             //Console.WriteLine($"{input}! = {result}");
 
 
-            Random random = new Random();
-            int secret = random.Next(1, 10);
-            Console.WriteLine("Please Guess a random number");
-            int guess = int.Parse(Console.ReadLine());
-            if (guess == secret)
+
+            //3 - Write a program and ask the user to enter a number. Compute the factorial of the number and print it on the console.
+            //For example, if the user enters 5, the program should calculate 5 x 4 x 3 x 2 x 1 and display it as 5! = 120.
+            //Random random = new Random();
+            //int secret = random.Next(1, 10);
+            //Console.WriteLine("Please Guess a random number");
+            //int guess = int.Parse(Console.ReadLine());
+            //if (guess == secret)
+            //{
+            //    Console.WriteLine($"The secret number is: {secret}");
+            //    Console.WriteLine("You won!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"The secret number is: {secret}");
+            //    Console.WriteLine("You Lost!");
+            //}
+
+            Random r = new Random();
+            int rnum = r.Next(1,10);
+            bool guessedCorrectly = false;
+            for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine($"The secret number is: {secret}");
-                Console.WriteLine("You won!");
+                Console.WriteLine("Please enter a guess");
+                int guess = int.Parse(Console.ReadLine());
+
+                if (guess == rnum)
+                {
+                    Console.WriteLine($"The secret number is: {rnum}");
+                    Console.WriteLine("You won!");
+                    guessedCorrectly = true;
+                    break;
+                } 
+                
+                  
             }
-            else
+            if (!guessedCorrectly)
             {
-                Console.WriteLine($"The secret number is: {secret}");
+                Console.WriteLine($"The secret number was: {rnum}");
                 Console.WriteLine("You Lost!");
             }
+
 ;        }
-
-
-
     }
 }
