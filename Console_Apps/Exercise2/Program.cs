@@ -17,19 +17,32 @@ namespace Exerice2
             //}
             //Console.WriteLine(count);
 
-            int sum = 0;
-            while (true)
+            //Write a program and continuously ask the user to enter a number or "ok" to exit. Calculate the sum of all the previously entered numbers and display it on the console.
+            //int sum = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine("Please enter a number or OK to exit");
+            //    String num = Console.ReadLine();
+            //    if (num == "OK")
+            //    {
+            //        Console.WriteLine(sum);
+            //        break;
+            //    }
+            //    sum = sum + int.Parse(num);
+            //}
+
+            Console.WriteLine("Please enter a number");
+            int input = int.Parse(Console.ReadLine());
+            int result = 1;
+
+            for (int i = 1; i <= input; i++)
             {
-                Console.WriteLine("Please enter a number or OK to exit");
-                String num = Console.ReadLine();
-                if (num == "OK")
-                {
-                    Console.WriteLine(sum);
-                    break;
-                }
-                sum = sum + int.Parse(num);
+                result = result * i;
             }
+            Console.WriteLine($"{input}! = {result}");
         }
+
+
 
     }
 }
