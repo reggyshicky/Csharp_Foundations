@@ -58,7 +58,7 @@ namespace Exerice2
             else
             {
                 Console.WriteLine($"The secret number is: {secret}");
-                Console.WriteLine("You Lost");
+                Console.WriteLine("You Lost!");
             }
 ;        }
 
