@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Exerice2
 {
@@ -31,16 +32,35 @@ namespace Exerice2
             //    sum = sum + int.Parse(num);
             //}
 
-            Console.WriteLine("Please enter a number");
-            int input = int.Parse(Console.ReadLine());
-            int result = 1;
 
-            for (int i = 1; i <= input; i++)
+            // - Write a program and ask the user to enter a number. Compute the factorial of the number and print it on the console.
+            // For example, if the user enters 5, the program should calculate 5 x 4 x 3 x 2 x 1 and display it as 5! = 120.
+            //Console.WriteLine("Please enter a number");
+            //int input = int.Parse(Console.ReadLine());
+            //int result = 1;
+
+            //for (int i = 1; i <= input; i++)
+            //{
+            //    result = result * i;
+            //}
+            //Console.WriteLine($"{input}! = {result}");
+
+
+            Random random = new Random();
+            int secret = random.Next(1, 10);
+            Console.WriteLine("Please Guess a random number");
+            int guess = int.Parse(Console.ReadLine());
+            if (guess == secret)
             {
-                result = result * i;
+                Console.WriteLine($"The secret number is: {secret}");
+                Console.WriteLine("You won");
             }
-            Console.WriteLine($"{input}! = {result}");
-        }
+            else
+            {
+                Console.WriteLine($"The secret number is: {secret}");
+                Console.WriteLine("You Lost");
+            }
+;        }
 
 
 
