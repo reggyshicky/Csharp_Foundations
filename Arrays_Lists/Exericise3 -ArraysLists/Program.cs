@@ -5,6 +5,10 @@ public class Program
     public static void Main(String[] args)
     {
         Exercise3 e = new Exercise3();
-        e.facebook();
+        //e.facebook();
+
+        e.arrayReverse();
+
+        //e.Exercise2();
     }
 }

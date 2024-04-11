@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Array_Lists
 {
@@ -47,6 +49,32 @@ namespace Array_Lists
                 Console.WriteLine();
             }
         }
+        //Write a program and ask the user to enter their name.Use an array to reverse the name and then store the result in a new string.
+        //Display the reversed name on the console.
+        public void arrayReverse()
+        {
+            Console.WriteLine("Please enter your name");
+            string name = Console.ReadLine();
+
+            char[] nameArr = name.ToCharArray();
+            Array.Reverse(nameArr);
+
+            string reversedString = string.Join("", nameArr);
+            Console.WriteLine(reversedString);
+        }
+
+        //public void Exercise2()
+        //{
+        //    Console.Write("What's your name? ");
+        //    var name = Console.ReadLine();
+
+        //    var array = new char[name.Length];
+        //    for (var i = name.Length; i > 0; i--)
+        //        array[name.Length - i] = name[i - 1];
+
+        //    var reversed = new string(array);
+        //    Console.WriteLine("Reversed name: " + reversed);
+        //}
     }
 
 }
