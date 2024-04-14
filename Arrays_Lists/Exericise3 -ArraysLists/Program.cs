@@ -8,6 +8,7 @@ public class Program
         //e.facebook();
         //e.arrayReverse();
         //e.Exercise2();
-        e.enter5Numbers();
+        //e.enter5Numbers();
+        e.lstManipulation();
     }
 }

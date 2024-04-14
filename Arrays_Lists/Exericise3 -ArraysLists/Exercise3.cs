@@ -109,6 +109,39 @@ namespace Array_Lists
 
         //4- Write a program and ask the user to continuously enter a number or type "Quit" to exit.
         //The list of numbers may include duplicates. Display the unique numbers that the user has entered.
+        public void lstManipulation()
+        {
+            List<int> mylst = new List<int>();
+            while(true) 
+            {
+                Console.WriteLine("Please enter a number or type (quit) to exit");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "quit")
+                {
+                    break;
+                }
+                else
+                {
+                    mylst.Add(int.Parse(input));
+                }
+
+            }
+
+            //alternative short
+            // Get distinct elements
+            List<int> unique = mylst.Distinct().ToList();
+            //List<int> unique = new List<int>();
+            //foreach (var num in mylst)
+            //{
+            //    if (!unique.Contains(num))
+            //        unique.Add(num);
+            //}
+            Console.WriteLine("Unique numbers:");
+            foreach (var number in unique)
+                Console.WriteLine(number);
+
+        }
+
 
 
 
