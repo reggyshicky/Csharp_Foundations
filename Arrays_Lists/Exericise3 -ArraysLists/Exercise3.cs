@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Xml;
@@ -139,6 +140,39 @@ namespace Array_Lists
             Console.WriteLine("Unique numbers:");
             foreach (var number in unique)
                 Console.WriteLine(number);
+
+        }
+
+        //5- Write a program and ask the user to supply a list of comma separated numbers (e.g 5, 1, 9, 2, 10).
+        //If the list is empty or includes less than 5 numbers, display "Invalid List" and ask the user to re-try;
+        //otherwise, display the 3 smallest numbers in the list.
+        public void commaSeperated()
+        {
+            while (true) 
+            {
+                Console.WriteLine("Please supply a list of comma separated numbers (e.g 5,1,9,2,10)");
+                string input = Console.ReadLine();
+                List<int> mylst = new List<int>();
+                var strLst = input.Split(",").ToList();
+                foreach (var item in strLst)
+                {
+                    mylst.Add(int.Parse(item));
+                }
+                if (mylst.Count == 0 || mylst.Count < 5)
+                {
+                    Console.WriteLine("Invalid List, Please re-try");
+                    continue;
+                }
+                else
+                {
+                    mylst.Sort(); //sort in ascending order, manipulate the list itself, does not create another list
+                    for (int i = 0; i < 3; i++)
+                    {
+                        Console.WriteLine(mylst[i]);
+                    }
+                    break;
+                }
+            }
 
         }
 

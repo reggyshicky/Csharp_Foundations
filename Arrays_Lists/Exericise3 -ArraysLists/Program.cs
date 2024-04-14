@@ -9,6 +9,7 @@ public class Program
         //e.arrayReverse();
         //e.Exercise2();
         //e.enter5Numbers();
-        e.lstManipulation();
+        //e.lstManipulation();
+        e.commaSeperated();
     }
 }
