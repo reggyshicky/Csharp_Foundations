@@ -1,9 +1,12 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Array_Lists
 {
@@ -24,7 +27,7 @@ namespace Array_Lists
             while (true)
             {
                 Console.WriteLine("Type a name(or hit ENTER to quit): ");
-                String input = Console.ReadLine();
+                string input = Console.ReadLine();
 
                 if (string.IsNullOrEmpty(input))
                     break;
@@ -62,7 +65,6 @@ namespace Array_Lists
             string reversedString = string.Join("", nameArr);
             Console.WriteLine(reversedString);
         }
-
         //public void Exercise2()
         //{
         //    Console.Write("What's your name? ");
@@ -75,6 +77,36 @@ namespace Array_Lists
         //    var reversed = new string(array);
         //    Console.WriteLine("Reversed name: " + reversed);
         //}
+
+        //Write a program and ask the user to enter 5 numbers.
+        //If a number has been previously entered, display an error message and ask the user to re-try. Once the user successfully enters 5 unique numbers, sort them and display the result on the console.
+        public void enter5Numbers()
+        {
+            List<int> lst = new List<int>();
+            for (int i = 0; i < 5; i++)
+            {
+
+                Console.WriteLine("Please enter a unique number that you have not entered before");
+                int input =  int.Parse(Console.ReadLine());
+                if (lst.Contains(input))
+                {
+                    Console.WriteLine("Re-try and put a Unique number");
+                    input = int.Parse(Console.ReadLine());
+                    lst.Add(input);
+
+                }
+                else
+                {
+                    lst.Add(input);
+                }
+            }
+            foreach(var num in lst)
+            {
+                Console.WriteLine(num);
+            }
+        }
+        
+
     }
 
 }

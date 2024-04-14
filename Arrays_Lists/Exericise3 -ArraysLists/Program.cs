@@ -6,9 +6,8 @@ public class Program
     {
         Exercise3 e = new Exercise3();
         //e.facebook();
-
-        e.arrayReverse();
-
+        //e.arrayReverse();
         //e.Exercise2();
+        e.enter5Numbers();
     }
 }
