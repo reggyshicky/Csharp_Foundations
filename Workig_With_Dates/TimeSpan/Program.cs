@@ -35,7 +35,7 @@
             Console.WriteLine("Subtract Example: " + timeSpan.Subtract(TimeSpan.FromMinutes(2))); //Subtract Example: 01:00:03
 
 
-            //Convert a TimeSpan to a String - call a ToString() method
+            //Convert a TimeSpan to a String - call a ToString() method.
             Console.WriteLine("ToString: " + timeSpan.ToString());
 
             //Parse - Convert a String to a TimeSpan
