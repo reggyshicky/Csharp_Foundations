@@ -90,9 +90,8 @@ namespace Array_Lists
                 int input =  int.Parse(Console.ReadLine());
                 if (lst.Contains(input))
                 {
-                    Console.WriteLine("Re-try and put a Unique number");
-                    input = int.Parse(Console.ReadLine());
-                    lst.Add(input);
+                    Console.WriteLine("You've previously entered " + input);
+                    continue;
 
                 }
                 else
