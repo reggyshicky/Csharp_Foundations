@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workig_With_Dates", "Workig_With_Dates\Workig_With_Dates.csproj", "{935F3BCA-0CE8-466C-9814-6228174A4FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workig_With_Dates", "Workig_With_Dates\Workig_With_Dates.csproj", "{935F3BCA-0CE8-466C-9814-6228174A4FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan", "TimeSpan\TimeSpan.csproj", "{10048074-F167-4D49-9F70-9778A57D0383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{935F3BCA-0CE8-466C-9814-6228174A4FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935F3BCA-0CE8-466C-9814-6228174A4FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935F3BCA-0CE8-466C-9814-6228174A4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10048074-F167-4D49-9F70-9778A57D0383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10048074-F167-4D49-9F70-9778A57D0383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10048074-F167-4D49-9F70-9778A57D0383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10048074-F167-4D49-9F70-9778A57D0383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
