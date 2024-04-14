@@ -38,7 +38,7 @@
             //Convert a TimeSpan to a String - call a ToString() method.
             Console.WriteLine("ToString: " + timeSpan.ToString());
 
-            //Parse - Convert a String to a TimeSpan
+            //Parse - Convert a String to a TimeSpan.
             Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));
 
 
