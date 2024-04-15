@@ -1,11 +1,6 @@
-﻿namespace StringBuilderaExercise
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            IllustrateStringBuilder y = new IllustrateStringBuilder();
-            y.exercise1();
-        }
-    }
-}
+﻿using StringBuilderaExercise;
+
+IllustrateStringBuilder y = new IllustrateStringBuilder();
+//y.exercise1();
+y.exercise2();
+ 
