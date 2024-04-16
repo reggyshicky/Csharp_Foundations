@@ -106,6 +106,12 @@ namespace StringBuilderaExercise
                 return;
             }
 
+            if (arr.Length != 2)
+            {
+                Console.WriteLine("Invalid Time");
+                return;
+            }
+
             int n = int.Parse(arr[0]);
             int m = int.Parse(arr[1]);
 
