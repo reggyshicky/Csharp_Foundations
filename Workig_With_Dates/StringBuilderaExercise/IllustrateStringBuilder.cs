@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -122,6 +124,28 @@ namespace StringBuilderaExercise
             {
                 Console.WriteLine("Invalid Time");
             }
+        }
+
+        //4- Write a program and ask the user to enter a few words separated by a space.Use the words to create a variable name with PascalCase.
+        //For example, if the user types: "number of students", display "NumberOfStudents". Make sure that the program is not dependent on
+        //the input.So, if the user types "NUMBER OF STUDENTS", the program should still display "NumberOfStudents".
+
+        public void exercise4()
+        {
+            Console.WriteLine("Please enter a few words seperated by a space");
+            string input = Console.ReadLine();
+
+            string[] arr = input.Split(" ");
+            StringBuilder n = new StringBuilder();
+;
+            for(int i = 0; i < arr.Length; i++)
+            {
+                TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
+                string a = textInfo.ToTitleCase(arr[i]);
+                n.Append(string.Join("", a));
+            }
+
+            Console.WriteLine(n);
         }
     }
 }

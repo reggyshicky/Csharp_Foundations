@@ -3,6 +3,6 @@
 IllustrateStringBuilder y = new IllustrateStringBuilder();
 //y.exercise1();
 //y.exercise2();
-y.exercise3();
-
+//y.exercise3();
+y.exercise4();
 
