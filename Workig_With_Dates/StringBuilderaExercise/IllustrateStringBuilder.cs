@@ -90,5 +90,32 @@ namespace StringBuilderaExercise
             }
 
         }
+
+        //3- Write a program and ask the user to enter a time value in the 24-hour time format(e.g. 19:00).
+        //A valid time should be between 00:00 and 23:59. If the time is valid, display "Ok"; otherwise,
+        //display "Invalid Time". If the user doesn't provide any values, consider it as invalid time.
+
+        public void exercise3()
+        {
+            Console.WriteLine("Enter a time value in the 24-hour time format(e.g. 19:00), A valid time should be between 00:00 and 23:59");
+            string input = Console.ReadLine();
+            string[] arr = input.Split(':');
+
+            if (String.IsNullOrWhiteSpace(input)) {
+                Console.WriteLine("Invalid Time");
+                return;
+            }
+
+            int n = int.Parse(arr[0]);
+            int m = int.Parse(arr[1]);
+
+            if ((n >= 0 && n <= 23) && (m >= 0 && m <= 59))
+            {
+                Console.WriteLine("Ok");
+            } else
+            {
+                Console.WriteLine("Invalid Time");
+            }
+        }
     }
 }
