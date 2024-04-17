@@ -6,6 +6,9 @@
         {
             FileDirectories n = new FileDirectories();
             n.readTextFile();
+
+            Console.WriteLine("-------");
+            n.execise2();
         }
     }
 }
