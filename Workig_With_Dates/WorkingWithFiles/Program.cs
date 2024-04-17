@@ -10,7 +10,7 @@ namespace WorkingWithFiles
             var path = @"D:\home.txt";
             var path2 = @"D:\lol.txt";
             var path3 = @"D:\wow.txt";
-            File.Copy(@"D:\fold\Fgsredtkfygj.docx", @"E:\testbitbucketrepo\Fgsredtkfygj.docx", true);
+            File.Copy(@"D:\fold\testing.txt", @"E:\testbitbucketrepo\testing.txt", true);
             File.Delete(path);
             File.Create(path);
             if (File.Exists(path) == true)
@@ -22,7 +22,7 @@ namespace WorkingWithFiles
                 Console.WriteLine("File does not exists");
             }
 
-            var content = File.ReadAllText(@"D:\fold\hello.docx"); //returns a astring
+            var content = File.ReadAllText(@"D:\fold\testing.txt"); //returns a astring
 
             Console.WriteLine(content);
             //File.ReadAllBytes(path); //returns byte array , as binary

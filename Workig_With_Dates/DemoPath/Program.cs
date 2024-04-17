@@ -6,7 +6,7 @@
         //that representd a path and extract different parts of that path
         static void Main(string[] args)
         {
-            string path = @"D:\fold\Fgsredtkfygj.docx";
+            string path = @"D:\fold\testing.txt";
 
             int index = path.IndexOf('.');
             string str = path.Substring(0);
