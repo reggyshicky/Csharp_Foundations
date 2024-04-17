@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeSpan", "TimeSpan\TimeSp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithText_CsharpStrings", "WorkingWithText_CsharpStrings\WorkingWithText_CsharpStrings.csproj", "{1C2E1A53-1C4D-4DE2-BBBD-E1A3791D5223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderInAction", "StringBuilder\StringBuilderInAction.csproj", "{6653425A-F013-4148-A23E-51EF86817A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderInAction", "StringBuilder\StringBuilderInAction.csproj", "{6653425A-F013-4148-A23E-51EF86817A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderaExercise", "StringBuilderaExercise\StringBuilderaExercise.csproj", "{9BA97C87-2A4D-4413-A018-0F212543F838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderaExercise", "StringBuilderaExercise\StringBuilderaExercise.csproj", "{9BA97C87-2A4D-4413-A018-0F212543F838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFiles", "WorkingWithFiles\WorkingWithFiles.csproj", "{B72761B3-5AAF-4551-845A-A2BA90222D63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9BA97C87-2A4D-4413-A018-0F212543F838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BA97C87-2A4D-4413-A018-0F212543F838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BA97C87-2A4D-4413-A018-0F212543F838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72761B3-5AAF-4551-845A-A2BA90222D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72761B3-5AAF-4551-845A-A2BA90222D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72761B3-5AAF-4551-845A-A2BA90222D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72761B3-5AAF-4551-845A-A2BA90222D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
