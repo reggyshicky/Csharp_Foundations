@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDive_AccessModifiers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors_And_Inheritance", "Constructors_And_Inheritance\Constructors_And_Inheritance.csproj", "{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
