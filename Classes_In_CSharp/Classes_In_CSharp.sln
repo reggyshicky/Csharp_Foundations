@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro_Inheritance", "Encaps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{32510686-F342-47C4-89C3-8C6BE11D53CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDive_AccessModifiers", "DeepDive_AccessModifiers\DeepDive_AccessModifiers.csproj", "{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{32510686-F342-47C4-89C3-8C6BE11D53CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32510686-F342-47C4-89C3-8C6BE11D53CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32510686-F342-47C4-89C3-8C6BE11D53CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
