@@ -9,6 +9,17 @@ namespace DeepDive_AccessModifiers
             var cust = new Customer();
             //Amazon.
 
+
+            //side notes, the keyword is used to check the type of an obj
+            string name = "reginah";
+            if (name is string)
+            {
+                Console.WriteLine("Indeed it checks the type");
+            }
+            else
+            {
+                Console.WriteLine("What hell");
+            }
         }
     }
 
