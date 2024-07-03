@@ -33,7 +33,7 @@ app.MapPut("/todoitems/{id}", async (int id, TodoItem inputTodo, TodoDb db) =>
     return Results.NoContent();
 });
 
-app.MapDelete("/todoitem/{id}", async (int id, TodoDb db) =>
+app.MapDelete("/todoitems/{id}", async (int id, TodoDb db) =>
 {
     var todo = await db.Todos.FindAsync(id);
     if (todo == null) return Results.NotFound();
