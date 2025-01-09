@@ -1,0 +1,6 @@
+@Will_I_ever_go_back_to_Net_HostAddress = http://localhost:5285
+
+GET {{Will_I_ever_go_back_to_Net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

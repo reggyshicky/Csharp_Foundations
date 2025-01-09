@@ -19,19 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Exercises", "Classes_Exercises\Classes_Exercises.csproj", "{39D93EB5-E2FE-4FBF-9F5D-12B4CFFC544A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro_Inheritance", "Encapsulation\Intro_Inheritance.csproj", "{ED18D632-E2D7-4E67-8A1E-7729EFBD7838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro_Inheritance", "Encapsulation\Intro_Inheritance.csproj", "{ED18D632-E2D7-4E67-8A1E-7729EFBD7838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{32510686-F342-47C4-89C3-8C6BE11D53CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composition", "Composition\Composition.csproj", "{32510686-F342-47C4-89C3-8C6BE11D53CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDive_AccessModifiers", "DeepDive_AccessModifiers\DeepDive_AccessModifiers.csproj", "{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepDive_AccessModifiers", "DeepDive_AccessModifiers\DeepDive_AccessModifiers.csproj", "{39C1EBE6-9D59-4D69-A6B5-B9FAF18EB72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon", "Amazon\Amazon.csproj", "{B25A9FDD-0C3C-4273-8FBD-35FAE4F5CCD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors_And_Inheritance", "Constructors_And_Inheritance\Constructors_And_Inheritance.csproj", "{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors_And_Inheritance", "Constructors_And_Inheritance\Constructors_And_Inheritance.csproj", "{7FFB55ED-7A6D-4D7E-8A8A-478D3832D26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpCasting_And_DownCasting", "UpCasting_And_DownCasting\UpCasting_And_DownCasting.csproj", "{5A55A019-9C5D-480F-B3E9-CB4B7E5AE7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpCasting_And_DownCasting", "UpCasting_And_DownCasting\UpCasting_And_DownCasting.csproj", "{5A55A019-9C5D-480F-B3E9-CB4B7E5AE7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{869E9CDB-6541-42F9-A036-A6191E567562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{869E9CDB-6541-42F9-A036-A6191E567562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy_OOP", "Udemy_OOP\Udemy_OOP.csproj", "{D5D38584-72DF-45C1-8A59-97ADAE40B24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemMy_OOP", "UdemMy_OOP\UdemMy_OOP.csproj", "{1F77C75F-52C1-4E2E-BB58-0CAA780D2E68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{869E9CDB-6541-42F9-A036-A6191E567562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869E9CDB-6541-42F9-A036-A6191E567562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869E9CDB-6541-42F9-A036-A6191E567562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D38584-72DF-45C1-8A59-97ADAE40B24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D38584-72DF-45C1-8A59-97ADAE40B24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D38584-72DF-45C1-8A59-97ADAE40B24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D38584-72DF-45C1-8A59-97ADAE40B24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F77C75F-52C1-4E2E-BB58-0CAA780D2E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F77C75F-52C1-4E2E-BB58-0CAA780D2E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F77C75F-52C1-4E2E-BB58-0CAA780D2E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F77C75F-52C1-4E2E-BB58-0CAA780D2E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
